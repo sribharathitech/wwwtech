@@ -1,1 +1,1 @@
-https://technologies.sribharathi.com
+http://technologies.sribharathi.com
