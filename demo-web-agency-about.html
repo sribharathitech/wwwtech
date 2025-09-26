@@ -222,8 +222,8 @@
         <section class="p-0">
             <div class="container-fluid">
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-11 position-relative h-750px md-h-600px sm-h-350px border-radius-6px border border-color-transparent position-relative" data-parallax-background-ratio="0.5" style="background-image: url('https://via.placeholder.com/1920x1100');">  
-                        <a href="https://www.youtube.com/watch?v=cfXHhfNy7tU" class="popup-youtube">
+                    <div class="col-11 position-relative h-750px md-h-600px sm-h-350px border-radius-6px border border-color-transparent position-relative" data-parallax-background-ratio="0.5" style="background-image: url('images/Press pause-amico.png');">  
+                        <a href="images/video.mp4" type="video/mp4">
                             <div class="absolute-middle-center z-index-9">
                                 <img src="images/demo-web-agency-03.png" class="animation-rotation" alt="">
                                 <div class="absolute-middle-center w-100 z-index-minus-1"><img src="images/demo-web-agency-about-02.png" alt=""></div> 
@@ -332,24 +332,120 @@
         </section>
         <!-- end section -->
         <!-- start section -->
-        <section class="p-0">
-            <div class="container">
-                <div class="row mb-6 sm-mb-40px" data-anime='{"translateY": [0, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <div class="col-lg-6 md-mb-25px">
-                        <h4 class="mb-0 fw-600 text-dark-gray w-85 lg-w-100 ls-minus-2px"><Canvas></Canvas>Continuously strive to be technologically innovative and achieve process excellence.</h4>
+        <!-- start section -->
+<section id="guiding-principles" class="p-0">
+  <style>
+    /* ===== Scoped to this section only ===== */
+    #guiding-principles .split-col{display:flex; flex-direction:column; justify-content:center;}
+    #guiding-principles .lead-title{letter-spacing:-.02em;}
 
-                        <p class="w-95 md-w-100">We have aligned our thoughts, principles, and ideas with changing times and newer market demands, but our core values that accentuate our standards of work and commitment to customers have been always drawn from our unwavering guiding principles.</p>
-                    </div>
-                    <div class="col-lg-5 offset-lg-1">
-                            
-                        <b class="w-95 md-w-100">  Customer Centricity:</b> To relentlessly drive the quality, costs and delivery of our IT services and solutions with utmost customer centricity backed with prompt and proactive communication to provide supreme customer delight. </p>
-                              
-                         <b class="w-95 md-w-100"> Business Ethics and Transparency:</b> To be honest, dedicated, fair, transparent, sincere, and open in all our customer transactions.</p>
-                            
-                        <b class="w-95 md-w-100">Respect:</b> To hold our customers, partners, colleagues, and stakeholders in great esteem, dignity and prestige.</p>
-                        <a href="demo-web-agency-about.html" class="btn btn-medium btn-expand-ltr text-dark-gray btn-rounded fw-700"><span class="bg-base-color"></span>OUR GUIDING PRINCIPLES</a>
-                    </div>
-                </div>
+    /* Highlight feature card (like the top green card in the reference) */
+    #guiding-principles .gp-feature{
+      position:relative; border:1px solid rgba(0,0,0,.08); border-radius:12px;
+      background:#fff; padding:22px 22px 22px 20px;
+      box-shadow:0 12px 30px rgba(0,0,0,.08);
+    }
+    #guiding-principles .gp-feature:before{
+      content:""; position:absolute; left:-4px; top:16px; bottom:16px; width:4px;
+      background:currentColor; color:transparent;
+    }
+    /* color the left stripe using a small element we can set to base color */
+    #guiding-principles .gp-feature .stripe{position:absolute; left:-4px; top:16px; bottom:16px; width:4px;}
+    #guiding-principles .gp-feature .icon{
+      width:46px; height:46px; border-radius:10px; background:rgba(0,0,0,.04);
+      display:flex; align-items:center; justify-content:center; margin-right:14px;
+      box-shadow:0 8px 16px rgba(0,0,0,.05);
+    }
+    #guiding-principles .gp-feature h6{margin:0 0 6px 0; font-weight:700;}
+
+    /* Compact list items (3 below the big card) */
+    #guiding-principles .gp-item{
+      display:flex; align-items:center; gap:14px; padding:14px 8px; border-radius:10px;
+    }
+    #guiding-principles .gp-item .mini{
+      width:42px; height:42px; border-radius:10px; background:#fff;
+      display:flex; align-items:center; justify-content:center;
+      border:1px solid rgba(0,0,0,.06); box-shadow:0 6px 14px rgba(0,0,0,.06);
+      flex:0 0 42px;
+    }
+    #guiding-principles .gp-item-title{margin:0; font-weight:600; color:#1a1a1a;}
+    #guiding-principles .muted{color:rgba(26,26,26,.75);}
+
+    /* a subtle divider between columns on lg+ (like the vertical rhythm in the reference) */
+    @media (min-width:992px){
+      #guiding-principles .with-divider{position:relative;}
+      #guiding-principles .with-divider:before{
+        content:""; position:absolute; left:-28px; top:0; bottom:0; width:1px;
+        background:rgba(0,0,0,.08);
+      }
+    }
+  </style>
+
+  <div class="container">
+    <div class="row mb-6 sm-mb-40px"
+         data-anime='{"translateY":[0,0],"opacity":[0,1],"duration":800,"delay":200,"staggervalue":300,"easing":"easeOutQuad"}'>
+
+      <!-- LEFT: original content instead of image -->
+      <div class="col-lg-6 md-mb-30px split-col">
+        <h4 class="mb-20px fw-700 text-dark-gray w-85 lg-w-100 lead-title">
+          Continuously strive to be technologically innovative and achieve process excellence.
+        </h4>
+        <p class="w-95 md-w-100 muted mb-0">
+          We have aligned our thoughts, principles, and ideas with changing times and newer market demands,
+          but our core values that accentuate our standards of work and commitment to customers have been
+          always drawn from our unwavering guiding principles.
+        </p>
+      </div>
+
+      <!-- RIGHT: feature card + 3 items + button (like the reference) -->
+      <div class="col-lg-5 offset-lg-1 split-col with-divider">
+
+        <!-- Big highlight card -->
+        <div class="gp-feature mb-25px">
+          <span class="stripe bg-base-color"></span>
+          <div class="d-flex">
+            <div class="icon">
+              <i class="bi bi-heart-pulse-fill text-dark-gray"></i>
+            </div>
+            <div>
+              <h6 class="text-dark-gray">Customer Centricity</h6>
+              <p class="muted mb-0">
+                Drive quality, cost, and delivery with a customer-first mindset—powered by prompt,
+                proactive communication for genuine customer delight.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Three compact items -->
+        <div class="gp-item mb-10px">
+          <div class="mini"><i class="bi bi-shield-check text-dark-gray"></i></div>
+          <p class="gp-item-title">Business Ethics & Transparency</p>
+        </div>
+
+        <div class="gp-item mb-10px">
+          <div class="mini"><i class="bi bi-people text-dark-gray"></i></div>
+          <p class="gp-item-title">Respect for customers, partners & colleagues</p>
+        </div>
+
+        <div class="gp-item mb-20px">
+          <div class="mini"><i class="bi bi-graph-up-arrow text-dark-gray"></i></div>
+          <p class="gp-item-title">Consistent, measurable service excellence</p>
+        </div>
+
+        <!-- Keep your button exactly (theme color fill animates inside) -->
+        <a href="demo-web-agency-about.html" 
+           class="btn btn-medium btn-expand-ltr text-dark-gray btn-rounded fw-700">
+          <span class="bg-base-color"></span>OUR GUIDING PRINCIPLES
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end section -->
+
+
+                
                 <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 transition-inner-all mb-6 lg-mb-5" data-anime='{ "el": "childs", "translateY": [-15, 0], "perspective": [1200,1200], "scale": [1.1, 1], "rotateX": [50, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     <!-- start team member item --> 
                     <div class="col team-style-08 border-radius-6px md-mb-30px mt-2 md-mt-0" data-bottom-top="transform: translateY(40px)" data-top-bottom="transform: translateY(-40px)">
