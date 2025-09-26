@@ -126,15 +126,157 @@
                         <span class="fs-14 fw-600 text-dark-gray text-uppercase d-block mb-15px"><i class="bi bi-patch-check-fill fs-15 text-dark-gray me-5px"></i> Accompany your AI journey</span>
                         <h3 class="text-dark-gray fw-600 ls-minus-2px">Unlock Strategic Growth for Your Business With Our AI </h3>
                     </div>
-                    <div class="col-xl-6 col-lg-6 offset-xl-1" data-anime='{ "el": "childs", "translateX": [-50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                        <p class="w-90 lg-w-100">Driven by a relentless pursuit of knowledge and application, we are dedicated to conducting groundbreaking research and developing state-of-the-art products that leverage AI to address real-world challenges.</p>
-                        <span class="ps-15px pe-15px m-5px text-uppercase text-dark-gray fs-12 fw-600 border-radius-100px bg-white box-shadow-small d-inline-block">Artificial Intelligence</span>
-                        <span class="ps-15px pe-15px m-5px text-uppercase text-dark-gray fs-12 fw-600 border-radius-100px bg-white box-shadow-small d-inline-block">Innovation</span>
-                        <span class="ps-15px pe-15px m-5px text-uppercase text-dark-gray fs-12 fw-600 border-radius-100px bg-white box-shadow-small d-inline-block">ioT</span>
-                        <span class="ps-15px pe-15px m-5px text-uppercase text-dark-gray fs-12 fw-600 border-radius-100px bg-white box-shadow-small d-inline-block">Machine Learning</span>
-                        <span class="ps-15px pe-15px m-5px text-uppercase text-dark-gray fs-12 fw-600 border-radius-100px bg-white box-shadow-small d-inline-block">Robotics</span>
-                       
-                    </div>
+
+
+                    <div class="col-xl-6 col-lg-6 offset-xl-1" id="sb-spring-boot">
+  <style>
+    /* --- scoped to this block --- */
+    #sb-spring-boot .reveal{opacity:0;transform:translateY(12px);transition:opacity .5s ease,transform .5s ease}
+    #sb-spring-boot .reveal.show{opacity:1;transform:none}
+    @media(prefers-reduced-motion:reduce){#sb-spring-boot .reveal,#sb-spring-boot .reveal.show{opacity:1;transform:none;transition:none}}
+
+    #sb-spring-boot .hero-h{
+      font-size:clamp(26px,3vw,36px);line-height:1.2;
+      font-weight:700;letter-spacing:-.4px;margin:10px 0 6px 0;
+    }
+    #sb-spring-boot .subline{font-size:clamp(14px,2vw,17px);opacity:.85;margin-bottom:18px}
+
+    #sb-spring-boot .body p{margin:0 0 14px 0}
+    #sb-spring-boot .callout{
+      position:relative;background:#fff;border-radius:12px;
+      box-shadow:0 10px 28px rgba(0,0,0,.10);
+      padding:16px 18px;margin:18px 0 20px 0;border-top:4px solid var(--accent,#8fd400);
+    }
+    #sb-spring-boot .callout::after{
+      content:"";position:absolute;left:14px;right:14px;bottom:-6px;height:6px;
+      border-radius:99px;background:linear-gradient(90deg,transparent,var(--accent,#8fd400),transparent);
+      opacity:.35;filter:blur(2px)
+    }
+    #sb-spring-boot .pills{display:flex;flex-wrap:wrap;gap:10px}
+    #sb-spring-boot .pill{
+      padding:8px 14px;border-radius:999px;background:#fff;
+      box-shadow:0 6px 16px rgba(0,0,0,.08);font-size:12px;
+      text-transform:uppercase;font-weight:700;letter-spacing:.3px
+    }
+  </style>
+
+  <!-- accent probe (we read this color and set --accent) -->
+  <span class="bg-base-color" style="display:none"></span>
+
+  <!-- top intro (your original paragraph split for readability) -->
+  <div class="text-dark-gray body">
+    <p class="reveal" style="--d:0ms">
+      Driven by a relentless pursuit of knowledge and application, we are dedicated to conducting groundbreaking research and developing state-of-the-art products that leverage AI to address real-world challenges.
+    </p>
+    
+  </div>
+
+  <!-- heading + subheading like the reference -->
+  <h3 class="hero-h text-dark-gray reveal" style="--d:180ms">
+    AI <span class="text-base-color">Brilliance!</span>
+  </h3>
+  <div class="subline text-dark-gray reveal" style="--d:220ms">
+   Turn raw data into actionable insights with advanced predictive and prescriptive models. From trend forecasting to risk detection, we empower organizations to make smarter, faster decisions.
+  </div>
+
+  <!-- main body (your Spring Boot copy, split into short chunks) -->
+  <div class="text-dark-gray body">
+    <p class="reveal" style="--d:260ms">
+      Automate recognition, detection, and real-time video analysis with cutting-edge vision systems. Our solutions power industries like surveillance, manufacturing, and retail with unparalleled accuracy.
+    </p>
+    <p class="reveal" style="--d:300ms">
+      Redefine customer engagement with intelligent chatbots and voice assistants. We design systems that understand, respond, and continuously learn—delivering human-like interaction at scale.
+    </p>
+  </div>
+
+  <!-- highlight callout like the screenshot -->
+  <div class="callout text-dark-gray reveal" style="--d:340ms">
+    Accelerate your AI journey while ensuring trustworthy, scalable, and secure deployments across your enterprise.
+  </div>
+
+   <!-- Pills -->
+    <div class="mt-20px">
+        
+    </div>
+<style>
+    .pill {
+        display: inline-block;
+        background-color: #c6ff00; /* neon green */
+        color: #111; /* dark text */
+        font-weight: 700;
+        font-size: 13px;
+        text-transform: uppercase;
+        padding: 12px 28px;
+        margin: 6px;
+        border-radius: 9999px; /* pill shape */
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        cursor: default;
+    }
+
+    .pill:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+    }
+</style>
+
+  <script>
+    (function(){
+      const root=document.getElementById('sb-spring-boot');
+      // Borrow your theme base color and set as CSS var for the accent
+      const probe=root.querySelector('.bg-base-color');
+      const accent=getComputedStyle(probe).backgroundColor||'#8fd400';
+      root.style.setProperty('--accent', accent);
+
+      // Reveal-on-scroll with small stagger (uses inline --d where present)
+      const io=new IntersectionObserver(es=>es.forEach(e=>{
+        if(!e.isIntersecting) return;
+        const el=e.target, d=parseInt(el.style.getPropertyValue('--d')||'0',10);
+        setTimeout(()=>el.classList.add('show'), d);
+        io.unobserve(el);
+      }),{threshold:.18});
+      root.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+    })();
+  </script>
+</div>
+
+
+
+
+
+
+ <!-- Pills -->
+    <div class="mt-20px">
+        <span class="pill">PREDICTIVE ANALYTICS</span>
+        <span class="pill">COVERSATIONAL AI</span>
+        <span class="pill">SMART SOLUTIONS</span>
+        <span class="pill">AI AUTOMATION</span>
+        <span class="pill">DIGITAL TRANSFORMATION</span>
+    </div>
+<style>
+    .pill {
+        display: inline-block;
+        background-color: #c6ff00; /* neon green */
+        color: #111; /* dark text */
+        font-weight: 700;
+        font-size: 13px;
+        text-transform: uppercase;
+        padding: 12px 28px;
+        margin: 6px;
+        border-radius: 9999px; /* pill shape */
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        cursor: default;
+    }
+
+    .pill:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+    }
+</style>
+
+
+                    
                 </div>
             </div>
         </section>
@@ -161,41 +303,83 @@
         <!-- end section --> 
         <!-- start section -->
         <section>
-            <div class="container">
-                <div class="row mb-7">
-                    <div class="col-lg-5 md-mb-10px" data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <span class="ps-20px pe-20px mb-30px text-uppercase text-dark-gray fs-12 border-radius-100px bg-dark-gray text-white box-shadow-small d-inline-block" style="">Why SBTech?</span>
-                        <h3 class="text-dark-gray fw-600 ls-minus-2px">We enhance our expertise across domains with AI algorithms.</h3> 
-                        <div class="fs-19 fw-500S text-dark-gray">We deliver relevant and impactful custom AI software solutions tailored to your unique business requirements.</div>
-                    </div>
-                    <div class="col-lg-7" data-anime='{ "el": "childs", "translateY": [15, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="fs-19 fw-600 text-dark-gray">Generative AI</div>
-                            </div>
-                            <div class="col-md-9 last-paragraph-no-margin">
-                                <p>We empower businesses with ChatGPT solutions for workflow automation, improved customer service and faster decision-making.</p>
-                            </div>
-                        </div>
-                        <div class="separator-line-1px bg-dark-gray mt-35px mb-35px"></div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="fs-19 fw-600 text-dark-gray">Favorable Cooperation</div>
-                            </div>
-                            <div class="col-md-9 last-paragraph-no-margin">
-                                <p>We offer flexible terms of cooperation that will be the most suitable for your project needs and goals.</p>
-                            </div>
-                        </div>
-                        <div class="separator-line-1px bg-dark-gray mt-35px mb-35px"></div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="fs-19 fw-600 text-dark-gray">Strong Tech Expertise</div>
-                            </div>
-                            <div class="col-md-9 last-paragraph-no-margin">
-                                <p>We have solid technical know-how in custom AI application development and AI software design for different domains.</p>
-                            </div>
-                        </div>
-                    </div>
+            
+  <div class="container">
+    <div class="row align-items-start">
+      
+      <!-- LEFT COLUMN -->
+      <div class="col-lg-6">
+        <span class="btn btn-very-small btn-dark-gray mb-20px">WHY SBTECH?</span>
+        <h4 class="fw-700 text-dark-gray mb-20px">
+          We enhance our expertise across domains with
+          <span class="text-base-color">AI </span> Algorithms.<br>
+          Agile, scalable, and customized to your needs.
+        </h4>
+        <p class="text-dark-gray fs-16 lh-28">
+         We deliver relevant and impactful custom AI software solutions tailored to your unique business requirements.
+        </p>
+      </div>
+      
+      <!-- RIGHT COLUMN -->
+      <div class="col-lg-6" id="integration-cards">
+        <style>
+          #integration-cards .card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-bottom: 22px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+            border-top: 4px solid #c6ff00; /* neon green */
+            transition: transform .25s ease, box-shadow .25s ease;
+            position: relative;
+          }
+          #integration-cards .card::before {
+            content:"";
+            position:absolute;
+            left:12px; right:12px; top:6px; height:0;
+            box-shadow:0 0 0 6px rgba(198,255,0,.45);
+            border-radius:10px; opacity:.55;
+            pointer-events:none;
+          }
+          #integration-cards .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+          }
+          #integration-cards .title {
+            font-weight: 700;
+            font-size: 18px;
+            margin-bottom: 6px;
+            color: #333;
+          }
+          #integration-cards p {
+            margin: 0;
+            font-size: 15px;
+            line-height: 1.6;
+            color: #555;
+          }
+        </style>
+
+        <div class="card">
+          <div class="title">Generative AI</div>
+          <p>We empower businesses with ChatGPT solutions for workflow automation, improved customer service and faster decision-making.</p>
+        </div>
+
+        <div class="card">
+          <div class="title">Favorable Cooperation</div>
+          <p>We offer flexible terms of cooperation that will be the most suitable for your project needs and goals.
+
+</p>
+        </div>
+
+        <div class="card">
+          <div class="title">Strong Tech Expertise</div>
+          <p>We have solid technical know-how in custom AI application development and AI software design for different domains.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>     
                 </div>
             </div>
         </section>
@@ -206,7 +390,7 @@
                 <div class="row align-items-center position-relative">
                     <div class="col-lg-6">
                         <div class="outside-box-left-5 md-outside-box-left-0" data-bottom-top="transform:scale(1.1, 1.1)" data-top-bottom="transform:scale(1, 1)">
-                            <img src="images/Chat bot-amico.PNG" alt=""/>
+                            <img src="images/Chat bot-amico.png" alt=""/>
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1 z-index-9 md-mt-35px" data-anime='{ "el": "childs", "translateX": [15, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
