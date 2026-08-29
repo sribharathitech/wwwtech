@@ -214,27 +214,27 @@ video {
 }
 h1, .h1 {
   font-size: 4.375rem;
-  line-height: 4.375rem;
+  line-height: 1.15;
 }
 h2, .h2 {
   font-size: 3.438rem;
-  line-height: 3.438rem;
+  line-height: 1.15;
 }
 h3, .h3 {
   font-size: 2.813rem;
-  line-height: 3.125rem;
+  line-height: 1.2;
 }
 h4 {
   font-size: 2.375rem;
-  line-height: 2.7rem;
+  line-height: 1.2;
 }
 h5 {
   font-size: 2rem;
-  line-height: 2.2rem;
+  line-height: 1.2;
 }
 h6 {
   font-size: 1.75rem;
-  line-height: 1.95rem;
+  line-height: 1.2;
 }
 /* Font custom */
 .font-style-italic {
@@ -4254,10 +4254,10 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
 }
 /* Screen height */
 .extra-very-small-screen {
-  height: 250px !important;
+  min-height: 250px !important;
 }
 .extra-small-screen {
-  height: 300px !important;
+  min-height: 300px !important;
 }
 .small-screen {
   height: 400px !important;
@@ -9144,35 +9144,35 @@ button:focus {
 }
 .page-title-extra-large h1 {
   font-size: 3.3rem;
-  line-height: 3.3rem;
+  line-height: 1.2;
 }
 .page-title-extra-large h2 {
   font-size: 18px;
-  line-height: 26px;
+  line-height: 1.45;
 }
 .page-title-large h1 {
   font-size: 2.8rem;
-  line-height: 3rem;
+  line-height: 1.2;
 }
 .page-title-large h2 {
   font-size: 16px;
-  line-height: 22px;
+  line-height: 1.4;
 }
 .page-title-medium h1 {
   font-size: 2rem;
-  line-height: 2.2rem;
+  line-height: 1.2;
 }
 .page-title-medium h2 {
   font-size: 16px;
-  line-height: 22px;
+  line-height: 1.4;
 }
 .page-title-small h1 {
   font-size: 1.625rem;
-  line-height: 1.875rem;
+  line-height: 1.2;
 }
 .page-title-small h2 {
   font-size: 16px;
-  line-height: 22px;
+  line-height: 1.4;
 }
 .page-title-extra-small h1 {
   font-size: 17px;
