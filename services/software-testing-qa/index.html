@@ -336,10 +336,10 @@
         <section class="p-0">
             <div class="container-fluid pe-45px ps-45px">
                 <div class="row g-0">
-                    <div class="col-12 skrollr-parallax mx-auto p-8 position-relative" data-bottom-top="width: 100%" data-center-top="width: 100%;" data-parallax-background-ratio="0.5" style="background-image: url(/images/301.webp)" data-anime='{ "el": "childs", "translateY": [15, 0], "translateX": [15, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <div class="bg-white box-shadow-quadruple-large position-relative border-radius-4px w-400px xs-w-100 overflow-hidden z-index-1 float-end">
+                    <div class="col-12 mx-auto p-8 position-relative" data-anime='{ "el": "childs", "translateY": [15, 0], "translateX": [15, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <div class="bg-white box-shadow-quadruple-large position-relative border-radius-4px w-400px xs-w-100 overflow-hidden z-index-1 mx-auto">
                             <div class="p-50px lg-p-30px last-paragraph-no-margin text-center">
-                                <img src="/images/302.webp" class="w-85px mb-30px" alt=""/> 
+                                <img src="/images/302.webp" class="w-85px mb-30px" alt=""/>
                                 <span class="fs-20 ls-minus-05px alt-font text-dark-gray fw-600 mb-10px d-block">Our process. Simple, seamless, streamlined.</span>
                                 <p class="w-95 lg-w-100">We will Discuss your requirements, create a plan and assemble a team and get to work.</p>
                             </div>
@@ -445,7 +445,13 @@
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1 z-index-9 md-mt-35px" data-anime='{ "el": "childs", "translateX": [15, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <h2 class="h1 text-dark-gray fw-600 mb-40px md-mb-25px outside-box-left-15 md-outside-box-left-0 ls-minus-3px word-break-normal">We Possess Expertise In</h2>
+                        <h2 class="expertise-title text-dark-gray fw-600 mb-40px md-mb-25px outside-box-left-15 md-outside-box-left-0 ls-minus-1px word-break-normal">We Possess Expertise In</h2>
+                        <style>
+                            .expertise-title { font-size: 2.4rem; line-height: 1.2; white-space: nowrap; }
+                            @media (max-width: 480px) {
+                                .expertise-title { font-size: 1.6rem; white-space: normal; }
+                            }
+                        </style>
                         <p class="w-85 lg-w-100">Our experts specialize in various testing types, including application testing, mobile app testing, web app testing, and software product testing.</p>
                         <ul class="p-0 m-0 list-style-02">
                             <li class="text-dark-gray pb-5px"><i class="bi bi-check-lg fs-18 me-10px"></i>Web and Mobile QA.</li>

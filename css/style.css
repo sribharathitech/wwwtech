@@ -855,9 +855,12 @@ b, strong {
 /* Footer nav link list */
 .footer-nav-list li a {
   position: relative;
-  display: inline-block;
-  padding-left: 0;
-  transition: padding-left 0.25s ease, color 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 0 3px 0;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: padding-left 0.25s ease, color 0.25s ease, background-color 0.25s ease;
 }
 .footer-nav-list li a::before {
   content: "";
@@ -867,16 +870,31 @@ b, strong {
   transform: translateY(-50%);
   width: 0;
   height: 2px;
-  background: currentColor;
+  background: var(--base-color);
   opacity: 0;
   transition: width 0.25s ease, opacity 0.25s ease;
 }
+.footer-nav-list li a::after {
+  content: "\2197";
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 0.85em;
+  color: var(--base-color);
+  opacity: 0;
+  transform: translate(-4px, 2px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
 .footer-nav-list li a:hover {
   padding-left: 16px;
+  color: var(--base-color) !important;
 }
 .footer-nav-list li a:hover::before {
   width: 10px;
   opacity: 1;
+}
+.footer-nav-list li a:hover::after {
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
 /* ===================================
